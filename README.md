@@ -2,7 +2,7 @@
 <http://wwwdev.ebi.ac.uk/enright-dev/chimira>
 
 ## Input
-Raw FASTQ files (from small RNA-Seq samples) , compressed with gzip - '.gz' extension.
+Raw FASTQ files (from small RNA-Seq samples), compressed with gzip - '.gz' extension.
 
 ## Tutorial #
 *  You can use Chimira (Other tools tab) to infer the 3' adapter from your FASTQ files:

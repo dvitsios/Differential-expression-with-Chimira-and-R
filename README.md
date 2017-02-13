@@ -19,17 +19,18 @@ This means that your cleaned samples will now contain mainly miRNA reads.
 *  After downloading this file, you just need to rename the first line so that it reflects the samples that you are analysing. For instance, you can rename the default line:
 
 ```
-files   1/  2/  3/  4/
+...files   1/  2/  3/  4/
 
-into
+into:
 
-files   CTL1    CTL2    KO1 KO2
+...files   CTL1    CTL2    KO1 KO2
 ```
 
 Please bear in mind that the required formatting for the renamed columns is :
 
-nameA1  nameA2  nameB1  nameB2 &nbsp;&nbsp;&nbsp;<i>(tab separated)</i>
-
+```
+...nameA1  nameA2  nameB1  nameB2 &nbsp;&nbsp;&nbsp;<i>(tab separated)</i>
+```
 
 where ‘nameA' and ‘nameB’ can be any names descriptive of your samples and the suffixes ‘1’ and ‘2’ just denote the two replicates used for the analysis.
 
@@ -48,7 +49,7 @@ Rscript analyse_counts.R counts_clean.txt CTL KO
 
 ```
 
-..* reminder: in that case your counts file should be named ‘counts_clean.txt’ and the first line of that file should be:
+...Reminder: in that case your counts file should be named ‘counts_clean.txt’ and the first line of that file should be:
 <br/>
 files   CTL1    CTL2    KO1 KO2
 

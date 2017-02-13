@@ -18,11 +18,13 @@ This means that your cleaned samples will now contain mainly miRNA reads.
 
 *  After downloading this file, you just need to rename the first line so that it reflects the samples that you are analysing. For instance, you can rename the default line:
 
-<div style='font-family:courier; padding-left:50px'>files   1/  2/  3/  4/</div>
+```
+files   1/  2/  3/  4/
 
 into
 
-<div style='font-family:courier; padding-left:50px'>files   CTL1    CTL2    KO1 KO2</div>
+files   CTL1    CTL2    KO1 KO2
+```
 
 Please bear in mind that the required formatting for the renamed columns is :
 
@@ -40,19 +42,15 @@ The script accepts 3 input arguments:
 
 You can call the R scirpt from console e.g. like that:
 
-`
+```
 
 Rscript analyse_counts.R counts_clean.txt CTL KO
 
-`
+```
 
-** reminder:
+..* reminder: in that case your counts file should be named ‘counts_clean.txt’ and the first line of that file should be:
 <br/>
-in that case your counts file should be named ‘counts_clean.txt’ and the first line of that file should be:
-<br/>
-<div style='font-family:courier'>files   CTL1    CTL2    KO1 KO2</div>
-
-)
+files   CTL1    CTL2    KO1 KO2
 
 
 

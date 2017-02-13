@@ -55,14 +55,15 @@ in that case your counts file should be named ‘counts_clean.txt’ and the fir
 
 ## Results ##
 
-This script is normalising your count data with DESeq2 and plots some basic QC at first (file Basic_QC.pdf), which contains a heatmap with sample-to-sample correlation, PCA analysis, dispersion plot and barplots with counts before and after normalisation.
+* This script is normalising your count data with DESeq2 and plots some basic QC at first (file Basic_QC.pdf), which contains a heatmap with sample-to-sample correlation, PCA analysis, dispersion plot and barplots with counts before and after normalisation.
 
-In the ‘Differential_Expression_analysis.pdf’ plot you get the differential expression scatterplot between the samples (after merging the replicates from each sample).
+* In the ‘Differential_Expression_analysis.pdf’ plot you get the differential expression scatterplot between the samples (after merging the replicates from each sample).
 In this plot, all the dots highlighted in light-blue demonstrate statistically significant differential expression ( absolute(fold_change) >  2 & p-value < 0.05 ).
 Among those, the let7-family miRNAs are also highlighted on the same plot.
 
-Apart from that, in the same pdf file, you get a scatterplot of diff expression of let7 miRNAs between your samples as well as barplots with the let7-family expression across all replicates and/or merged samples.
+* Apart from that, in the same pdf file, you get a scatterplot of diff expression of let7 miRNAs between your samples as well as barplots with the let7-family expression across all replicates and/or merged samples.
 
-Finally, some extra .txt files are being created which contain your normalised count data, a list of differentially expressed miRNAs (with the log2 fold change and adjusted p-value) and also the let7 counts (normal and log2 scale).
+* Finally, some extra .txt files are being created which contain your normalised count data, a list of differentially expressed miRNAs (with the log2 fold change and adjusted p-value) and also the let7 counts (normal and log2 scale).
 
+<br/>
 An example with an input file and the results can be found in the R_diff_expr_analysis-example/ directory 

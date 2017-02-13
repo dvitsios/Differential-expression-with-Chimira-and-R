@@ -55,7 +55,7 @@ in that case your counts file should be named ‘counts_clean.txt’ and the fir
 
 ## Results ##
 
-* This script is normalising your count data with DESeq2 and plots some basic QC at first (file Basic_QC.pdf), which contains a heatmap with sample-to-sample correlation, PCA analysis, dispersion plot and barplots with counts before and after normalisation.
+* This script is normalising your count data with [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html) and plots some basic QC at first (file Basic_QC.pdf), which contains a heatmap with sample-to-sample correlation, PCA analysis, dispersion plot and barplots with counts before and after normalisation.
 
 * In the ‘Differential_Expression_analysis.pdf’ plot you get the differential expression scatterplot between the samples (after merging the replicates from each sample).
 In this plot, all the dots highlighted in light-blue demonstrate statistically significant differential expression ( absolute(fold_change) >  2 & p-value < 0.05 ).

@@ -1,8 +1,7 @@
 # Chimira website:
-wwwdev.ebi.ac.uk/enright-dev/chimira/index.php
+<http://wwwdev.ebi.ac.uk/enright-dev/chimira/index.php>
 
-# Tutorial
-—
+## Tutorial #
 *  You can use Chimira (Other tools tab) to infer the 3’ adapter from your FASTQ files:
 wwwdev.ebi.ac.uk/enright-dev/chimira/index.php
 
@@ -38,14 +37,17 @@ the descriptive name of the first sample type
 the descriptive name of the second sample type
 So, from the console you can call it e.g. like that:
 
-Rscript analyse_counts.R counts_clean.txt CTL KO
+`Rscript analyse_counts.R counts_clean.txt CTL KO`
 
 ( 
 reminder: in that case your counts file should be named ‘counts_clean.txt’ and the first line of that file should be:
 files   CTL1    CTL2    KO1 KO2
 )
 
-Results:
+- - - -
+
+## Results ##
+
 This script is normalising your count data with DESeq2 and plots some basic QC at first (file Basic_QC.pdf), which contains a heatmap with sample-to-sample correlation, PCA analysis, dispersion plot and barplots with counts before and after normalisation.
 
 In the ‘Differential_Expression_analysis.pdf’ plot you get the differential expression scatterplot between the samples (after merging the replicates from each sample).

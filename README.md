@@ -1,6 +1,9 @@
 # Chimira website:
 <http://wwwdev.ebi.ac.uk/enright-dev/chimira>
 
+## Input
+Raw FASTQ giles, compressed with gzip (.gz extension)
+
 ## Tutorial #
 *  You can use Chimira (Other tools tab) to infer the 3' adapter from your FASTQ files:
 <br/>

@@ -44,7 +44,7 @@ reminder: in that case your counts file should be named ‘counts_clean.txt’ a
 files   CTL1    CTL2    KO1 KO2
 )
 
-- - - -
+
 
 ## Results ##
 

@@ -34,7 +34,8 @@ nameA1  nameA2  nameB1  nameB2   (tab separated)
 
 where 'nameA' and 'nameB' can be any names descriptive of your samples and the suffixes '1' and '2' just denote the two replicates used for the analysis.
 
-*  Now you are ready to analyse the file that you have downloaded (let's rename it into 'counts_clean.txt') using the R script (analyse_counts.R):
+## Run
+Now you are ready to analyse the file that you have downloaded (let's rename it into 'counts_clean.txt') using the R script (analyse_counts.R):
 
 The script accepts 3 input arguments: 
 * the counts file
